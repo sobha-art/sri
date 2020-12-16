@@ -1,0 +1,23 @@
+.product-container{
+    display:flex;
+    padding: 10px;
+    flex-direction: column;
+    background-color: #e6f2ff;
+    border:1px solid grey;
+    border-radius: 5px;
+    padding:25px;
+    cursor: pointer;
+    backface-visibility:hidden;
+    -moz-osx-font-smoothing:grayscale;
+    transform:translateZ(0);
+    transition:transform 0.25s easeout;
+    }
+    
+    .product-container:hover{
+    transform:scale(1.05);
+    }
+    .product-image{
+        width: 50%;
+        height: 50%;
+        object-fit:cover;
+    }
